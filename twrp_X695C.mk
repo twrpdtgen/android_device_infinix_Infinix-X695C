@@ -7,16 +7,16 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
-# Inherit some common Omni stuff.
+# Inherit some common TWRP stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from Infinix-X695C device
-$(call inherit-product, device/infinix/Infinix-X695C/device.mk)
+# Inherit from X695C device
+$(call inherit-product, device/infinix/X695C/device.mk)
 
-PRODUCT_DEVICE := Infinix-X695C
-PRODUCT_NAME := omni_Infinix-X695C
+PRODUCT_DEVICE := X695C
+PRODUCT_NAME := twrp_X695C
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X695C
 PRODUCT_MANUFACTURER := infinix
