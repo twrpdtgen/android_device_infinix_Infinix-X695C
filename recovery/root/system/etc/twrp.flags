@@ -17,7 +17,7 @@
 
 ## Firmware
 /dtbo                          emmc      /dev/block/platform/bootdevice/by-name/dtbo	                       flags=slotselect;
-/logo	                       emmc      /dev/block/platform/bootdevice/by-name/logo	                         flags=display="Logo";backup=1;
+/logo	                       emmc      /dev/block/platform/bootdevice/by-name/logo	                       flags=display="Logo";backup=1;
 /expdb                         emmc      /dev/block/platform/bootdevice/by-name/expdb
 /seccfg                        emmc      /dev/block/platform/bootdevice/by-name/seccfg
 /tee                           emmc      /dev/block/platform/bootdevice/by-name/tee                            flags=slotselect;
