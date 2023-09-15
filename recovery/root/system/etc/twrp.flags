@@ -4,7 +4,7 @@
 /boot                          emmc      /dev/block/platform/bootdevice/by-name/boot                           flags=display="Boot";flashimg=1;backup=1;slotselect;
 #/vendor_boot                  emmc      /dev/block/platform/bootdevice/by-name/vendor_boot                    flags=display="Vendor Boot";flashimg=1;backup=1;slotselect;
 #/cache                        ext4      /dev/block/platform/bootdevice/by-name/rescue                         flags=display="Cache";
-/vbmeta                        emmc      /dev/block/platform/bootdevice/by-name/vbmeta                         flags=slotselect;display="VBMeta";backup=1;flashimg=1;
+/vbmeta                        emmc      /dev/block/platform/bootdevice/by-name/vbmeta                         flags=slotselect;display="vbmeta";backup=1;flashimg=1;
 #/cust                         ext4      /dev/block/platform/bootdevice/by-name/cust                           flags=display="Cust";
 
 ## Sensitive data (IMEI, MAC, ...)
@@ -16,8 +16,8 @@
 /persistent                    emmc      /dev/block/platform/bootdevice/by-name/frp                            flags=display="Persistent";backup=1;
 
 ## Firmware
-/dtbo                          emmc      /dev/block/platform/bootdevice/by-name/dtbo	                       flags=slotselect;
-/logo	                       emmc      /dev/block/platform/bootdevice/by-name/logo	                       flags=display="Logo";backup=1;
+/dtbo                          emmc      /dev/block/platform/bootdevice/by-name/dtbo	                         flags=slotselect;
+/logo	                         emmc      /dev/block/platform/bootdevice/by-name/logo	                         flags=display="Logo";backup=1;
 /expdb                         emmc      /dev/block/platform/bootdevice/by-name/expdb
 /seccfg                        emmc      /dev/block/platform/bootdevice/by-name/seccfg
 /tee                           emmc      /dev/block/platform/bootdevice/by-name/tee                            flags=slotselect;
@@ -26,10 +26,10 @@
 /lk                            emmc      /dev/block/platform/bootdevice/by-name/bootloader                     flags=display="Bootloader";flashimg=1;backup=1;slotselect
 
 ## Dyanmic Partitions
-/product_a                     emmc      /dev/block/mapper/product                                             flags=display="Product Image";backup=1;flashimg=1;wipeingui
-/system_a                      emmc      /dev/block/mapper/system                                              flags=display="System Image";backup=1;flashimg=1;wipeingui
-/system_ext_a                  emmc      /dev/block/mapper/system_ext                                          flags=display="System_EXT Image";backup=1;flashimg=1;wipeingui
-/vendor_a                      emmc      /dev/block/mapper/vendor                                              flags=display="Vendor Image";backup=1;flashimg=1;wipeingui
+/product_a                     emmc      /dev/block/mapper/product                                             flags=display="Product";backup=1;flashimg=1;wipeingui
+/system_a                      emmc      /dev/block/mapper/system                                              flags=display="System;backup=1;flashimg=1;wipeingui
+/system_ext_a                  emmc      /dev/block/mapper/system_ext                                          flags=display="System_EXT";backup=1;flashimg=1;wipeingui
+/vendor_a                      emmc      /dev/block/mapper/vendor                                              flags=display="Vendor";backup=1;flashimg=1;wipeingui
 
 ## Removable storage
 /external_sd                   vfat      /dev/block/mmcblk0p1         /dev/block/mmcblk0                       flags=fsflags=utf8;display="MicroSD";storage;wipeingui;removable
