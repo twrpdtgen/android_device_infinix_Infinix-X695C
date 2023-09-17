@@ -158,9 +158,12 @@ TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_INCLUDE_REPACKTOOLS := true
 TW_FRAMERATE := 60
+TW_EXCLUDE_APEX := true
+TW_HAS_MTP := true
+TW_SCREEN_BLANK_ON_BOOT := true
 
 # Maintainer/Version
-TW_DEVICE_VERSION := By_Gilangeagea
+TW_DEVICE_VERSION := By_GilangeageaXD
 
 # logcd
 TWRP_INCLUDE_LOGCAT := true
