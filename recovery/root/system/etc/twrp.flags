@@ -19,7 +19,6 @@
 /logo			        emmc	/dev/block/platform/bootdevice/by-name/logo			flags=display="logo";backup=1;flashimg=1
 /md1img_a			emmc	/dev/block/platform/bootdevice/by-name/md1img_a	        flags=display="md1img_a";backup=1;
 /md1img_b			emmc	/dev/block/platform/bootdevice/by-name/md1img_b	        flags=display="md1img_b";backup=1;
-/md_udc			emmc	/dev/block/platform/bootdevice/by-name/md_udc	                flags=display="md_udc"
 /misc				emmc	/dev/block/platform/bootdevice/by-name/misc		        flags=display="misc";backup=1;
 /otp				emmc	/dev/block/platform/bootdevice/by-name/otp		        flags=display="otp"
 /para                           emmc    /dev/block/platform/bootdevice/by-name/para		        flags=display="para";backup=1
