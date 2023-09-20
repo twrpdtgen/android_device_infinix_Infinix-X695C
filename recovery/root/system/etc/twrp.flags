@@ -12,15 +12,15 @@
 /dtbo			        emmc 	/dev/block/platform/bootdevice/by-name/dtbo 		        flags=display="dtbo";backup=1;flashimg=1;slotselect
 /expdb				emmc	/dev/block/platform/bootdevice/by-name/expdb
 /frp				emmc	/dev/block/platform/bootdevice/by-name/frp			flags=display="persistent";backup=1
-/gz_a			        emmc 	/dev/block/platform/bootdevice/by-name/gz_a 		        flags=display="gz_a";backup=1;flashimg=1;slotselect
-/gz_b			        emmc 	/dev/block/platform/bootdevice/by-name/gz_b 		        flags=display="gz_b";backup=1;flashimg=1;slotselect
+/gz_a			        emmc 	/dev/block/platform/bootdevice/by-name/gz_a 		        flags=display="gz_a";backup=1;
+/gz_b			        emmc 	/dev/block/platform/bootdevice/by-name/gz_b 		        flags=display="gz_b";backup=1;
 /lk_a                           emmc    /dev/block/platform/bootdevice/by-name/lk_a                     flags=display="bootloader";backup=1;slotselect
 /lk_b                           emmc    /dev/block/platform/bootdevice/by-name/lk_b                     flags=display="bootloader2";backup=1;slotselect
 /logo			        emmc	/dev/block/platform/bootdevice/by-name/logo			flags=display="logo";backup=1;flashimg=1
-/md1img_a			emmc	/dev/block/platform/bootdevice/by-name/md1img_a	        flags=display="md1img_a";backup=1;flashimg=1
-/md1img_b			emmc	/dev/block/platform/bootdevice/by-name/md1img_b	        flags=display="md1img_b";backup=1;flashimg=1
-/md_udc			emmc	/dev/block/platform/bootdevice/by-name/md_udc	                flags=display="md_udc";backup=1;flashimg=1
-/misc				emmc	/dev/block/platform/bootdevice/by-name/misc		        flags=display="misc";backup=1;flashimg=1;slotselect
+/md1img_a			emmc	/dev/block/platform/bootdevice/by-name/md1img_a	        flags=display="md1img_a";backup=1;
+/md1img_b			emmc	/dev/block/platform/bootdevice/by-name/md1img_b	        flags=display="md1img_b";backup=1;
+/md_udc			emmc	/dev/block/platform/bootdevice/by-name/md_udc	                flags=display="md_udc"
+/misc				emmc	/dev/block/platform/bootdevice/by-name/misc		        flags=display="misc";backup=1;
 /otp				emmc	/dev/block/platform/bootdevice/by-name/otp		        flags=display="otp"
 /para                           emmc    /dev/block/platform/bootdevice/by-name/para		        flags=display="para";backup=1
 /preloader_a                    emmc    /dev/block/platform/bootdevice/by-name/preloader_a		flags=display="preloader_a";backup=1
@@ -39,10 +39,10 @@
 /oemkeystore		        emmc	/dev/block/platform/bootdevice/by-name/oemkeystore
 /secro				emmc	/dev/block/platform/bootdevice/by-name/secro		        flags=display="secro";backup=1
 /keystore			emmc	/dev/block/platform/bootdevice/by-name/keystore
-/tee_a				emmc	/dev/block/platform/bootdevice/by-name/tee_a			flags=display="tee_a";backup=1;flashimg=1
-/tee_b				emmc	/dev/block/platform/bootdevice/by-name/tee_b			flags=display="tee_b";backup=1;flashimg=1
-/tkv_a				emmc	/dev/block/platform/bootdevice/by-name/tkv_a			flags=display="tkv_a";backup=1;flashimg=1
-/tkv_b				emmc	/dev/block/platform/bootdevice/by-name/tkv_b			flags=display="tkv_b";backup=1;flashimg=1
+/tee_a				emmc	/dev/block/platform/bootdevice/by-name/tee_a			flags=display="tee_a";backup=1;
+/tee_b				emmc	/dev/block/platform/bootdevice/by-name/tee_b			flags=display="tee_b";backup=1;
+/tkv_a				emmc	/dev/block/platform/bootdevice/by-name/tkv_a			flags=display="tkv_a";backup=1;
+/tkv_b				emmc	/dev/block/platform/bootdevice/by-name/tkv_b			flags=display="tkv_b";backup=1;
 /tranfs			emmc	/dev/block/platform/bootdevice/by-name/tranfs			flags=display="tranfs"
 /mnt/vendor/persist            ext4      /dev/block/by-name/persist                        flags=display="Persist";backup=1;
 /vbmeta                         emmc    /dev/block/platform/bootdevice/by-name/vbmeta                   flags=display="VBMeta";backup=1;flashimg;slotselect
